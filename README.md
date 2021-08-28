@@ -27,17 +27,14 @@ Back-end:
 
 1. Abra o terminal e conecte-se à sua instância local do **MongoDB**.
 
-2. Na raiz do diretório do projeto, execute o seguinte comando que fará a restauração da base de dados `aggregations`:
-   ```
-   mongorestore aggregations/
-   ```
+2. Agora que você tem certeza de que a sua instância está no ar e que você está conectado a ela, digite `exit`. Você voltará ao terminal para iniciar a importação dos dados.
 
-- A execução desse script criará um banco de dados chamado `aggregations` e importará todas as suas coleções.
+3. Na raiz do diretório do projeto, execute o seguinte comando que fará a restauração da base de dados `aggregations`:
+    ```sh
+    DBNAME=aggregations ./scripts/resetdb.sh assets
+    ```
 
---- 
-# Desenvolvimento do projeto
-
-Cada requisito foi resolvido em seu arquivo próprio e estão salvos dentro do diretório challenges. Cada arquivo contém apenas o código MQL (_Mongo Query Language_) do desafio resolvido. 
+  * A execução desse script criará um banco de dados chamado `aggregations` e importará todas as suas coleções.
 
 ---
 
