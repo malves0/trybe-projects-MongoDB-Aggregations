@@ -9,3 +9,8 @@ assets/*/*.bson
 
 assets/*/dump.tar.gz
 node_modules
+
+.github
+.trybe
+scripts
+.eslintrc.json
