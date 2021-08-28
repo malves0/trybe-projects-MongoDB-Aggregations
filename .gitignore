@@ -10,6 +10,6 @@ assets/*/*.bson
 assets/*/dump.tar.gz
 node_modules
 
-github
+.github
 assets
 scripts
