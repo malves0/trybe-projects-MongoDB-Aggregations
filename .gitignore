@@ -11,3 +11,5 @@ assets/*/dump.tar.gz
 node_modules
 
 github
+assets
+scripts
