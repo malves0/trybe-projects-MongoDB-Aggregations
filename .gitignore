@@ -11,5 +11,6 @@ assets/*/dump.tar.gz
 node_modules
 
 .github
-assets
+.trybe
 scripts
+.eslintrc.json
